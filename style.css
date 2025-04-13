@@ -1,0 +1,52 @@
+MainWindow {
+    background-color: #fff;
+}
+
+QToolBar {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+ResetButton { 
+    background-color: #FAFBFC;  
+    border-radius: 8px;  
+    border: 1px solid #DADEE2;  
+    padding: 5px 10px;  
+    outline: 0px;
+}
+
+ResetButton:hover {  
+    background-color: #fff;  
+    border: 1px solid #D4D8DC;
+}
+
+btn { 
+    padding: 1px 1px; 
+    background-color: #FAFBFC;  
+    border-radius: 8px;  
+    border: 1px solid #DADEE2;  
+    outline: 0px;
+}
+
+btn:hover {  
+    background-color: #fff;  
+    border: 1px solid #D4D8DC;
+}
+
+btn:disabled {  
+    background-color: #eceff2;  
+}
+
+QLCDNumber {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #DADEE2;
+    border-radius: 5px;    
+}
+
+QLCDNumber::indicator {
+    background-color: #000000;
+    color: #E2E5E9;
+    border-radius: 5px;  
+}
+
